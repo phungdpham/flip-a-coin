@@ -1,0 +1,17 @@
+#player-area {
+    position: relative;
+    float: left;
+    margin-right: 100px;
+}
+
+#stat {
+    position: relative;
+    float: left;
+    top: 50px;
+}
+
+#result {
+    position: relative;
+    float: left;
+    margin-left: 0px;
+}

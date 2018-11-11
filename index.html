@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flip A Coin Game</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <div>
+        <h1>Flip A Coin</h1>
+    </div>
+    <div id='player-area'>
+        <h2>Guess Heads or Tails</h2>
+        <button id='heads'>HEADS</button>
+        <button id='tails'>TAILS</button>
+        <br>
+        <br>
+        <div>You guessed:
+            <span id='userGuess'></span>
+        </div>
+        <div id='result'></div>
+
+        <br>
+        <div id='coin-img'></div>
+
+    </div>
+    <div id='stat'>
+        <div>
+            <h3>
+                <span>Wins: </span>
+                <span id='wins'></span>
+            </h3>
+        </div>
+        <div>
+            <h3>
+                <span>Losses: </span>
+                <span id='losses'></span>
+            </h3>
+        </div>
+        <div>
+            <h3>
+                <span>Heads Chosen: </span>
+                <span id='heads-count'></span>
+            </h3>
+            <h3>
+                <span>Tails Chosen: </span>
+                <span id='tails-count'></span>
+            </h3>
+        </div>
+    </div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src='game.js'></script>
+</body>
+
+</html>
